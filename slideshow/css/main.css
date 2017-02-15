@@ -1,0 +1,47 @@
+.slideshow{
+	padding: 200px;
+	width: 502px;
+}
+.slideshow__item{
+	float: left;
+	margin-left: 5px;
+	padding: 3px;
+	border: 1px dashed #000;
+	list-style-type: none;
+}
+.slideshow__item first-child{
+	margin-left: 0;
+}
+.slideshow__display{
+	width: 500px;
+	height: 400px;
+	border: 1px dashed #ccc;
+	position: relative;
+}
+.slideshow__display img{
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.slideshow__list{
+	padding-top: 15px;
+
+}
+
+.slideshow__item:hover{
+	padding: 3px;
+	border: 1px solid #000;
+}
+.slideshow__item:active{
+	padding: 3px;
+	border: 1px solid #000;
+}
+.skideshow__pic{
+	display: block;
+	width: 100px;
+	height: 80px;
+}
