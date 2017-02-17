@@ -9,9 +9,7 @@
 	border: 1px dashed #000;
 	list-style-type: none;
 }
-.slideshow__item first-child{
-	margin-left: 0;
-}
+
 .slideshow__display{
 	width: 500px;
 	height: 400px;
